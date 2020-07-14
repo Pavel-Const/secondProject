@@ -13,7 +13,7 @@
 
 
 ## Ссылка на сайт
-   https://Pavel-Const.github.io/secondProfect
+   https://Pavel-Const.github.io/secondProject
 
 ### используются технологии
 
