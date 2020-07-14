@@ -1,0 +1,15 @@
+.intro__content-row-text {
+  max-width: 684px;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 0;
+  color: #ffffff;
+}
+@media screen and (max-width: 425px) {
+  .intro__content-row-text {
+    max-width: 684px;
+    font-size: 16px;
+    line-height: 27px;
+    margin: 0px auto 0px auto;
+  }
+}

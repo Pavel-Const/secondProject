@@ -1,0 +1,16 @@
+.place__web-site {
+  font-size: 18px;
+  line-height: 30px;
+  text-decoration-line: underline;
+  color: #ffffff;
+  margin-top: 16px;
+}
+.place__web-site:hover {
+  opacity: 0.7;
+}
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .place__web-site {
+    font-size: 2.4vw;
+    line-height: 1.66;
+  }
+}

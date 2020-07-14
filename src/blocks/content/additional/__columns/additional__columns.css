@@ -1,0 +1,8 @@
+.additional__columns{
+    display: grid;
+    max-width: 1184px;
+    margin: 72px auto 102px auto;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 16px;
+
+}

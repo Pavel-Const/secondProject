@@ -1,0 +1,26 @@
+.comments-card__author {
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 22px;
+  color: #ffffff;
+}
+@media screen and (max-width: 425px) {
+  .comments-card__author {
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    text-align: center;
+    order: 1;
+    margin-bottom: 24px;
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .comments-card__author {
+    font-size: 14px;
+    line-height: 22px;
+    color: #ffffff;
+    text-align: center;
+    order: 1;
+    margin-bottom: 24px;
+  }
+}

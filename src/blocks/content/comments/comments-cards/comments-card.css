@@ -1,0 +1,16 @@
+@import url("./__author/comments-cards__author.css");
+@import url("./__photo/comments-cards__photo.css");
+@import url("./__text/comments-cards__text.css");
+
+@media screen and (max-width: 425px) {
+  .comments-card {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .comments-card {
+    display: flex;
+    flex-direction: column;
+  }
+}

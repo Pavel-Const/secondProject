@@ -1,0 +1,25 @@
+.comments-card__text {
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  margin: 42px 0 24px 0;
+}
+@media screen and (max-width: 425px) {
+  .comments-card__text {
+    font-size: 16px;
+    line-height: 23px;
+    color: #ffffff;
+    margin: 0 auto 48px auto;
+    order: 2;
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .comments-card__text {
+    font-size: 16px;
+    line-height: 23px;
+    color: #ffffff;
+    margin: 0 auto 48px auto;
+    order: 2;
+    width: 70%;
+  }
+}

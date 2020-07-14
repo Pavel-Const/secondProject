@@ -1,0 +1,12 @@
+@import url("./_site/place__web-site.css");
+@import url("./_url/place__web-url.css");
+.place__web {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+@media screen and (max-width: 425px) {
+  .place__web {
+    display: none;
+  }
+}

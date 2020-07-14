@@ -1,0 +1,25 @@
+.page__header {
+  margin: 30px auto;
+  margin-left: 4.7vw;
+  margin-right: 4.7vw;
+}
+@media screen and (max-width: 425px) {
+  .page__header {
+    margin: 16px;
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .page__header {
+    margin: 30px 24px 48px 24px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .page__header {
+    margin: 30px 48px 48px 48px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .page__header {
+    margin: 30px auto;
+  }
+}

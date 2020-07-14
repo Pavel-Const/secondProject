@@ -1,0 +1,58 @@
+.cover__title {
+  width: 60%;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 78px;
+  text-align: center;
+  color: #fffdfd;
+  /*padding-top: 274px;*/
+  margin: auto;
+  position: relative;
+  z-index: 1;
+  align-self: center;
+}
+@media screen and (max-width: 425px) {
+  .cover__title {
+    width: 60%;
+    font-size: 7.6vw;
+    line-height: 1;
+    margin: auto;
+    padding: 0;
+    padding-top: 20%;
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .cover__title {
+    width: 70%;
+    font-size: 9.5vw;
+    line-height: 1.1;
+    margin: auto;
+    padding: 0;
+    padding-top: 15%;
+    margin-bottom: 1%;
+  }
+}
+/*
+@media screen and (min-width: 768px) {
+  .cover__title {
+    width: 80%;
+    font-size: 72px;
+    line-height: 1.1;
+    margin: auto;
+    padding: 0;
+    padding-top: 15%;
+    margin-bottom: 1%;
+  }
+}*/
+@media screen and (min-width: 768px) {
+  .cover__title {
+    width: 90%;
+    font-size: 72px;
+    line-height: 1.1;
+    margin: auto;
+    padding: 0;
+    padding-top: 22%;
+    margin-bottom: 1%;
+    padding-bottom: 11%;
+  }
+}

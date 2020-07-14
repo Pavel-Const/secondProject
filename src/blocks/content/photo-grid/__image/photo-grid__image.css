@@ -1,0 +1,27 @@
+.photo-grid__image {
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (max-width: 425px) {
+  .photo-grid__image {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .photo-grid__image {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .photo-grid__image {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+}

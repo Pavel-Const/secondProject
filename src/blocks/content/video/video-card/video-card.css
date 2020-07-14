@@ -1,0 +1,51 @@
+@import url("./__duration/video-card__duration.css");
+@import url("./__icon/video__container-icon.css");
+@import url("./__subtitle/video-card__subtitle.css");
+@import url("./__title/video-card__title.css");
+@import url("./_bg/video-card_bg.css");
+
+.video-card {
+  min-width: 583px;
+  min-height: 323px;
+  border-radius: 7px;
+}
+@media screen and (max-width: 425px) {
+  .video-card {
+    min-width: 100px;
+    min-height: 41.6vw;
+    padding-left: 4%;
+    padding-top: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .video-card {
+    width: 49%;
+    min-width: 200px;
+    min-height: 26.1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .video-card {
+    width: 49%;
+    min-width: 352px;
+    min-height: 28.2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1280px){
+  .video-card {/*
+    min-width: 45.54vw;
+    min-height: 25.24vw;*/
+    width: 49%;
+    min-width: 352px;
+    min-height: 25.2vw;
+  }
+}

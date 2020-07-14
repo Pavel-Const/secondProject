@@ -1,0 +1,13 @@
+@import url("./_author/intro__content-row-author.css");
+@import url("./_text/intro__content-row-text.css");
+
+.intro__content-row {
+  display: flex;
+}
+
+@media screen and (max-width: 425px) {
+  .intro__content-row {
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+}

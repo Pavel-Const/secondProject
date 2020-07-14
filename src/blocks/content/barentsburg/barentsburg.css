@@ -1,0 +1,16 @@
+@import url("./__columns/barentsburg__columns.css");
+@import url("./__image/barentsburg__image.css");
+@import url("./__subtitle/barentsburg__subtitle.css");
+@import url("./__text/barentsburg__text.css");
+@import url("./__title/barentsburg__title.css");
+@import url("./__website/barentsburg__website.css");
+
+.barentsburg {
+  max-width: 1184px;
+  display: none;
+}
+@media screen and (max-width: 425px) {
+  .barentsburg {
+    display: none;
+  }
+}

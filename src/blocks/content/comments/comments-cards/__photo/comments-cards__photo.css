@@ -1,0 +1,23 @@
+.comments-card__photo {
+  width: 97px;
+  height: 97px;
+  border-radius: 50%;
+}
+@media screen and (max-width: 425px) {
+  .comments-card__photo {
+    width: 97px;
+    height: 97px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .comments-card__photo {
+    width: 97px;
+    height: 97px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+  }
+}

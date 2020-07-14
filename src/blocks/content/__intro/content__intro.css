@@ -1,0 +1,22 @@
+.content__intro {
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 102px;
+}
+@media screen and (max-width: 425px) {
+  .content__intro {
+    margin: 64px auto 64px auto;
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .content__intro {
+    margin: 64px auto 64px auto;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .content__intro {
+    margin: 0;
+    margin-left: 48px;
+    margin-bottom: 102px;
+  }
+}

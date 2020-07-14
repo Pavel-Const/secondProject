@@ -1,0 +1,6 @@
+.emblem__columns{
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 36px;
+}

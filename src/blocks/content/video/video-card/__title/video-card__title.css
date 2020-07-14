@@ -1,0 +1,38 @@
+.video-card__title {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 39px;
+  color: #ffffff;
+  margin: 12px auto 18px 30px;
+  max-width: 322px;
+  position: relative;
+  z-index: 1;
+}
+@media screen and (max-width: 425px) {
+  .video-card__title {
+    font-size: 24px;
+    line-height: 26px;
+    margin: 0;
+    margin-bottom: 2%;
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .video-card__title {
+    font-size: 3.1vw;
+    line-height: 1;
+    margin: 0;
+    margin-left: 24px;
+    width: 90%;
+    margin-bottom: 2%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .video-card__title {
+    font-size: 3.5vw;
+    line-height: 1.1;
+    margin: 0;
+    margin-left: 30px;
+    width: 90%;
+    margin-bottom: 2%;
+  }
+}
